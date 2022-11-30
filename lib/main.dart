@@ -5,9 +5,66 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
 }
+
 //--------------LIST BURAYA EKLENECEK-------------------------------
 //------------------------------------------------------------------
+List<Color> renk = [
+  Colors.red,
+  Colors.redAccent,
+  Colors.yellow,
+  Colors.yellowAccent,
+  Colors.green,
+  Colors.greenAccent,
+  Colors.blue,
+  Colors.blueAccent,
+  Colors.purple,
+  Colors.purpleAccent,
+  Colors.red,
+  Colors.redAccent,
+  Colors.yellow,
+  Colors.yellowAccent,
+  Colors.green,
+  Colors.greenAccent,
+  Colors.blue,
+  Colors.blueAccent,
+  Colors.purple,
+  Colors.purpleAccent,
+  Colors.red,
+  Colors.redAccent,
+  Colors.yellow,
+  Colors.yellowAccent,
+  Colors.green,
+  Colors.greenAccent,
+  Colors.blue,
+  Colors.blueAccent,
+  Colors.purple,
+  Colors.purpleAccent,
+  Colors.red,
+  Colors.redAccent,
+  Colors.yellow,
+  Colors.yellowAccent,
+  Colors.green,
+  Colors.greenAccent,
+  Colors.blue,
+  Colors.blueAccent,
+  Colors.purple,
+  Colors.purpleAccent,
+];
 //------------------------------------------------------------------
+List<String> ogrenciler = [
+  "Ahmet Sıtkı",
+  "Enes",
+  "Hakan",
+  "Muhammed",
+  "Mustafa",
+  "Nail Eren",
+  "Salih",
+  "Yusuf",
+  "Tarık Emre",
+  "Hüseyin",
+  "Kaan Buğra",
+  "Hasan Kayra"
+];
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //------------------------------------------------------------------
@@ -54,6 +111,39 @@ class _MyHomePageState extends State<MyHomePage> {
             //------------------------------------------------------------------
             //--------------WIDGETLER BURAYA EKLENECEK--------------------------
             //------------------------------------------------------------------
+            Container(
+              height: 100,
+              width: 300,
+              color: renk[0],
+            ),
+
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+                  height: 100,
+                  width: 100,
+                  color: renk[2],
+                ),
+                Container(
+                  height: 100,
+                  width: 100,
+                  color: renk[6],
+                ),
+                Container(
+                  height: 100,
+                  width: 100,
+                  color: renk[8],
+                ),
+              ],
+            ),
+
+            Container(
+              height: 100,
+              width: 300,
+              color: renk[4],
+            ),
+
             //------------------------------------------------------------------
             //------------------------------------------------------------------
             //------------------------------------------------------------------
